@@ -1,0 +1,106 @@
+body {
+    background: linear-gradient(180deg, rgba(136,2,39,1) 0%, rgba(4,0,2,1) 63%);
+}
+
+/*------ header */
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.hd {
+    background-color: #0d0d0d;
+    color: white;
+}
+ 
+.custom-navbar {
+        background-color: #330010;
+        
+    }
+
+.custom-navbar a{
+ color: #fecf73;
+ border: 1px solid #330010;
+ margin-right: 10px;
+ border-bottom: 2px solid transparent ;
+ display: inline-block;
+}
+
+.custom-navbar a:hover {
+    color: #fecf73;
+    border-bottom-color: #fecf73;
+}
+
+.custom-navbar span{
+    color:#fecf73; 
+    font-size: 30px;
+    border: 1px solid #330010;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.custom-navbar span:hover {
+    border-color: #fecf73;
+}
+
+
+/*-------- Carousel  ---*/
+.hd h1 {
+    font-family: 'Dancing Script', cursive;
+}
+.carousel-inner img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    filter: brightness(70%);
+
+}
+
+/*------- About ---------*/
+
+section {
+    margin-top:50px;
+}
+
+section img{
+    object-fit: cover;
+    width: 200px;
+}
+
+/*------ main -----*/
+main img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+main p {
+    background-color: #fecf73;
+    display:inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    color: #804000;
+    margin: 10px;
+    font-weight: bold;
+}
+
+/*------ branch  ---------*/
+
+.branch img {
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.branch .col-3 {
+    border: 1px solid 
+}
+
+/* footer */
+
+.container-fluid {
+    background-color: rgba(136,2,39,1) 0%;
+
+}
